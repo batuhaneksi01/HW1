@@ -1,0 +1,103 @@
+<head>
+    <title>CS 405 HW1</title>
+    <link rel="stylesheet" type="text/css" href="hw1.css">
+</head>
+
+<body>
+
+    <svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg" class="viewboxcontainer" width="1200px" height="600px">
+        
+        <rect x="50" y="350" width="50" height="200" fill="blue" id="column1"></rect>
+        <rect x="120" y="350" width="50" height="200" fill="blue" id="column2"></rect>
+        <rect x="190" y="350" width="50" height="200" fill="blue" id="column3"></rect>
+        <rect x="260" y="350" width="50" height="200" fill="blue" id="column4"></rect>
+        <rect x="330" y="350" width="50" height="200" fill="blue" id="column5"></rect>
+        <rect x="400" y="350" width="50" height="200" fill="blue" id="column6"></rect>
+        <rect x="470" y="350" width="50" height="200" fill="blue" id="column7"></rect>
+        <rect x="540" y="350" width="50" height="200" fill="blue" id="column8"></rect>
+        <rect x="610" y="350" width="50" height="200" fill="blue" id="column9"></rect>
+        <rect x="680" y="350" width="50" height="200" fill="blue" id="column10"></rect>
+        <rect x="750" y="350" width="50" height="200" fill="blue" id="column11"></rect>
+        <rect x="820" y="350" width="50" height="200" fill="blue" id="column12"></rect>
+        <rect x="890" y="350" width="50" height="200" fill="blue" id="column13"></rect>
+        <rect x="960" y="350" width="50" height="200" fill="blue" id="column14"></rect>
+
+        <text x="985" y="585" width="50" height="10" fill="white" text-anchor="middle">2022</text>
+        <text x="915" y="585" width="50" height="10" fill="white" text-anchor="middle">2021</text>
+        <text x="845" y="585" width="50" height="10" fill="white" text-anchor="middle">2020</text>
+        <text x="775" y="585" width="50" height="10" fill="white" text-anchor="middle">2019</text>
+        <text x="705" y="585" width="50" height="10" fill="white" text-anchor="middle">2018</text>
+        <text x="635" y="585" width="50" height="10" fill="white" text-anchor="middle">2017</text>
+        <text x="565" y="585" width="50" height="10" fill="white" text-anchor="middle">2016</text>
+        <text x="495" y="585" width="50" height="10" fill="white" text-anchor="middle">2015</text>
+        <text x="425" y="585" width="50" height="10" fill="white" text-anchor="middle">2014</text>
+        <text x="355" y="585" width="50" height="10" fill="white" text-anchor="middle">2013</text>
+        <text x="285" y="585" width="50" height="10" fill="white" text-anchor="middle">2012</text>
+        <text x="215" y="585" width="50" height="10" fill="white" text-anchor="middle">2011</text>
+        <text x="145" y="585" width="50" height="10" fill="white" text-anchor="middle">2010</text>
+        <text x="75" y="585" width="50" height="10" fill="white" text-anchor="middle">2009</text>
+
+        <text x="985" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value14"></text>
+        <text x="915" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value13"></text>
+        <text x="845" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value12"></text>
+        <text x="775" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value11"></text>
+        <text x="705" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value10"></text>
+        <text x="635" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value9"></text>
+        <text x="565" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value8"></text>
+        <text x="495" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value7"></text>
+        <text x="425" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value6"></text>
+        <text x="355" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value5"></text>
+        <text x="285" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value4"></text>
+        <text x="215" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value3"></text>
+        <text x="145" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value2"></text>
+        <text x="75" y="330" width="50" height="10" fill="white" text-anchor="middle" id="value1"></text>
+
+        <rect x="1020" y="50" width="5" height="515" fill="black"></rect>
+        <rect x="40" y="560" width="980" height="5" fill="black"></rect>
+        <text x="1020" y="30" width="50" height="10" fill="white" text-anchor="middle"> Death Count </text>
+        
+        <text x="1050" y="550" width="50" height="10" fill="white" text-anchor="middle"> 0 </text>
+        <text x="1050" y="475" width="50" height="10" fill="white" text-anchor="middle"> 50000 </text>
+        <text x="1050" y="400" width="50" height="10" fill="white" text-anchor="middle"> 100000 </text>
+        <text x="1050" y="325" width="50" height="10" fill="white" text-anchor="middle"> 150000 </text>
+        <text x="1050" y="250" width="50" height="10" fill="white" text-anchor="middle"> 200000 </text>
+        <text x="1050" y="175" width="50" height="10" fill="white" text-anchor="middle"> 250000 </text>
+        <text x="1050" y="100" width="50" height="10" fill="white" text-anchor="middle"> 300000 </text>
+
+
+    </svg>
+
+    <div>
+        <input type="file" id="fileInput" accept="text/plain">
+    </div>
+
+    <script>
+        
+        // Upload text file and console.log the contens of the file
+        fileInput = document.getElementById("fileInput");
+        fileInput.addEventListener("change", function () {
+            var file = fileInput.files[0];
+            var reader = new FileReader();
+            reader.onload = function () {
+
+                var lines = reader.result.split("\n");
+
+                for(let i=0;i<lines.length;i++){
+                    column = document.getElementById("column"+(i+1));
+                    column.setAttribute("height", lines[i]*600/400000);
+                    column.setAttribute("y",550-lines[i]*600/400000)
+                    value = document.getElementById("value"+(i+1))
+                    value.textContent = lines[i]
+                    value.setAttribute("y",530-lines[i]*600/400000)
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function countLines(inputString) {
+            const lines = inputString.split("\n");
+            return lines.length;
+        }
+    </script>
+
+</body>

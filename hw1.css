@@ -1,0 +1,21 @@
+.viewboxcontainer {
+    border: 10px rgb(226, 43, 43) solid;
+    background-color: rgb(255, 113, 113);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.slidecontainer {
+    position: absolute;
+    top: 10;
+    right: 0;
+}
+
+.slider {
+    width: 25vw;
+}
